@@ -1,0 +1,17 @@
+.back-icon {
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: .875rem;
+        height: .875rem;
+        content: '';
+        border-top: 2px solid #12C286;
+        border-left: 2px solid #12C286;
+        transform: translate(-25%, -50%) rotate(-45deg);
+    }
+}
+.btn-lt,.btn-rt {
+    width: 3.125rem;
+    height: 3.125rem;
+}
